@@ -1,0 +1,307 @@
+:root{
+    --primary-color:#8d63ff;
+    --primary-color-dark:#4c32df;
+    --secondary-color:#fbbc39;
+    --secondary-color-light:#ffc954;
+    --text-dark:#1c2136;
+    --text-light:#eef0f5;
+
+
+   
+}
+body{
+    font-family: "Poppins", sans-serif;
+    
+    background-color: #000;
+
+   
+}
+
+.navbar-brand{
+    color: #fbbc39;
+}
+.navbar-brand a{
+    color: #fbbc39;
+}
+.nav-link{ 
+   
+    color:#fff;
+}
+.homepage,.aboutme,.skills,.proj,.socialmedia,.contact{
+    
+    padding: 100px 0px;    
+    
+}
+/*------------homepage---------------*/
+#homepage .homewords h1{
+    font-size: 100px;
+    color: #8d63ff;
+
+}
+.hello{
+    font-size: 50px;
+}
+#contact{
+    background-color: red;
+    color: white;
+
+}
+#contact:hover{
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    color: red;
+}
+.nav-link:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.col-md-6 img{
+    
+   
+    border: 40px solid rgba(0, 0, 0, 0);
+
+}
+.aboutme{
+    background-color:#8d63ff89 ;
+    
+}
+.aboutme .abt .homie{
+    width: 75%;
+}
+
+
+.col-md-6 img:hover{
+    border: 0px solid red;
+  
+    
+    
+}
+/*------skills-------------*/
+.skills{
+    background-color: #3d297496;
+}
+.skills .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .card1 i{
+    font-size:100px ;
+    
+}
+.skills .card1{
+    width: 18rem;
+    
+    background-color: #fff;
+    border-radius: 4%;
+    text-align: center;
+    
+    
+}
+.skills .card1{
+    border: 0px solid rgba(0, 0, 0, 0);
+    
+    box-shadow: none;
+}
+.skills .card1:hover{
+    border: 20px solid rgba(0, 0, 0, 0);
+    box-shadow:10px 10px 10px 3px #8d63ff89;
+}
+/*------projects-------------*/
+.proj .card i{
+    font-size:100px ;
+    
+}
+.proj {
+    
+    background-color: #000;
+}
+.proj .card{
+    width: 18rem;
+}
+
+.proj .col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj .video1{
+    width: 400px;
+}
+/*------socialmedia-------------*/
+.socialmedia{
+    background: var(--primary-color);
+    backdrop-filter: blur(5px);
+}
+.scmedia{
+    color: white;
+    font-size: 100px;
+    padding-right: 100px;
+}
+.socialmedia:hover{
+    backdrop-filter: blur(50px);
+
+}
+.scmedia:hover{
+    color: var(--primary-color);
+    font-size: 100px;
+    padding-right: 100px;
+    text-shadow: 2px 2px 10px #ffffff;
+}
+/*------socialmedia-------------*/
+.socialmedia{
+    visibility: none;
+}
+.sectc{
+    
+    border-radius: 0%;
+    background-color: #000;
+    color: white;
+}
+.submit{
+
+}
+
+
+
+
+
+/*------mediaqueries-------------*/
+
+@media only screen and (max-width:600px) {
+
+   body{
+    background-color: #000;
+   }
+    /*------nav-------------*/
+
+    nav .container .navbar-brand{
+        display: flex;  
+        text-align: center;      
+    }
+    /*------homepage-------------*/
+    #homepage .homewords {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+             
+    
+    }
+    #homepage .homewords h1{
+                
+        font-size: 69px;   
+    
+    }
+    #homepage .homewords h3{
+        
+    font-size: 30px;   
+    
+    }
+    #homepage .homewords h4{
+        
+         
+        font-size: 20px;   
+        text-align: center;
+    
+    }
+    #homepage .homewords .btn {
+        margin-bottom: 30px;
+                  
+    
+    }
+    /*------aboutme-------------*/
+
+
+    .aboutme .abt .homie{
+        width: 80%;
+    
+     
+    }
+    .aboutme .abt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .aboutme .abt h1{
+        font-size: 25px;
+           
+    }
+    .aboutme .abt h4{
+        font-size: 15px;
+            
+    }
+    .aboutme .abt h6{
+        font-size: 15px;
+       
+    }
+    
+    /*------skills-------------*/
+    .skills{
+        padding-top: 10px 0px;
+    }
+    .skills .container{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #skills .col-md-3{
+        
+        width:auto;
+        
+  
+    }
+    .skills .card1{
+        width: 8rem;
+        height: 8rem;
+        margin-left:
+    }
+    .skills .card1 i{
+        font-size: 50px;
+    }
+    /*------projects-------------*/
+  
+    .proj{
+        padding: 20px 10px;
+        width: fit-content;
+
+    }
+    .proj .card{
+        width: 9rem;
+    }
+    .proj .card-body{
+        font-size: 15px;
+    }
+    .proj .video1{
+        width: 400px;
+    }
+    
+
+    
+    /*------socialmedia-------------*/
+    .socialmedia {
+       text-align: center;
+       visibility: visible;
+       
+    }
+    .socialmedia .scmedia{
+        
+        font-size: 40px;
+        width: fit-content;
+
+    }
+    /*------contact-------------*/
+
+    
+}
+/*
+*/
